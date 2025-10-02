@@ -1,8 +1,8 @@
 import telebot
 import time
 
-BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
-bot = telebot.TeleBot('BOT_TOKEN')
+# BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
+bot = telebot.TeleBot('1993540275:AAGe00xzgBPdaKdxu3jd21qbhsVAjPgWM5E')
 
 @bot.message_handler(content_types=['text'])
 def echo_message(message):
